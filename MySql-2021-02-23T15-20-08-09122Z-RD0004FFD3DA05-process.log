@@ -1,0 +1,37 @@
+2021-02-23T15:20:08.0912290Z
+2021-02-23T15:20:08.1068544Z w3wp, pid=14868, tid=4
+2021-02-23T15:20:08.1224771Z "D:\Program Files (x86)\mysql\5.7.9.0\bin\mysqld.exe" --console --bind-address=127.0.0.1 --explicit_defaults_for_timestamp --basedir="D:\Program Files (x86)\mysql\5.7.9.0" --datadir="C:\DWASFiles\Sites\coinbash\VirtualDirectory0\data\mysql" --port="53431" --tmpdir="D:\local\temp\mysql" --innodb_temp_data_file_path="..\..\..\temp\mysql\ibtmp1:12M:autoextend" --pid-file="D:\local\temp\mysql\RD0004FFD3DA05.pid" 
+2021-02-23T15:20:08.1547679Z mysqld:8440 started
+2021-02-23T15:20:08.559982Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-02-23T15:20:08.559982Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2021-02-23T15:20:08.559982Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2021-02-23T15:20:08.559982Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2021-02-23T15:20:08.559982Z 0 [Note] D:\Program Files (x86)\mysql\5.7.9.0\bin\mysqld.exe (mysqld 5.7.9) starting as process 8440 ...
+2021-02-23T15:20:08.591225Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-02-23T15:20:08.591225Z 0 [Note] InnoDB: Uses event mutexes
+2021-02-23T15:20:08.591225Z 0 [Note] InnoDB: Memory barrier is not used
+2021-02-23T15:20:08.591225Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-02-23T15:20:08.591225Z 0 [Note] InnoDB: Number of pools: 1
+2021-02-23T15:20:08.591225Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-02-23T15:20:08.747497Z 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-02-23T15:20:08.794347Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-23T15:20:09.106874Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-23T15:20:10.606855Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-02-23T15:20:10.606855Z 0 [Note] InnoDB: Setting file '..\..\..\temp\mysql\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-02-23T15:20:10.747508Z 0 [Note] InnoDB: File '..\..\..\temp\mysql\ibtmp1' size is now 12 MB.
+2021-02-23T15:20:10.763078Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-02-23T15:20:10.763078Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-02-23T15:20:10.763078Z 0 [Note] InnoDB: Waiting for purge to start
+2021-02-23T15:20:10.841249Z 0 [Note] InnoDB: 5.7.9 started; log sequence number 2472392
+2021-02-23T15:20:10.841249Z 0 [Note] InnoDB: not started
+2021-02-23T15:20:10.841249Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-02-23T15:20:10.841249Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\DWASFiles\Sites\coinbash\VirtualDirectory0\data\mysql\ib_buffer_pool
+2021-02-23T15:20:10.934987Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2021-02-23T15:20:10.934987Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 53431
+2021-02-23T15:20:10.934987Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-02-23T15:20:10.934987Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-02-23T15:20:11.184990Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210223 15:20:11
+2021-02-23T15:20:11.794352Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-02-23T15:20:11.794352Z 0 [Note] D:\Program Files (x86)\mysql\5.7.9.0\bin\mysqld.exe: ready for connections.
+Version: '5.7.9'  socket: ''  port: 53431  MySQL Community Server (GPL)
+2021-02-23T15:20:11.8099509Z mysqld(8440) is ready at port 53431!
